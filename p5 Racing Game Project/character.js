@@ -40,7 +40,7 @@ class Character
 
   show()
   {
-    image(cImg, this.x, this.y, this.r, this.r);
+    image(cImg, this.x, this.y - 50, this.r, this.r);
     // fill (255, 50);
     // ellipseMode(CORNER);
     // ellipse(this.x, this.y, this.r, this.r);
